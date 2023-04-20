@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e Tosa</title>
+</head>
+
+<body>
+    <h1>Agendamento para banho e tosa</h1>
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
+
+   <main>
+        <form action="index.html">
+            <fieldset>
+                <legend>
+                    <figcaption>Identificação do Tutor(a) do pet</figcaption>
+                </legend><p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" placeholder="Digite o nome completo do dono do pet" size="60">
+                </p>
+                <p>
+                    <label for="endereço">Endereço:</label>
+                    <input type="text" name="endereço" placeholder="Digite seu endereço" size="60">
+                </p>
+                <p>
+                    <label for="CEP">CEP:</label>
+                    <input type="text" name="CEP" placeholder="xxxxx-xxx" size="10">
+                </p>
+                <p>
+                    <label for="e-mail">e-mail:</label>
+                    <input type="email" name="email" placeholder="Digite seu email" size="60">
+                </p>
+                <p>
+                    <label for="telefone">Celular:</label>
+                    <input type="text" name="number" placeholder="(99) 99999-9999" size="10">
+                </p>
+            </fieldset>
+            <p>
+            <fieldset>
+                <legend>
+                    <figcaption>Identificação do pet</figcaption>
+                </legend>
+    
+                <p>
+                    <label for="nome">Nome do pet:</label>
+                    <input type="text" name="nome" placeholder="Digite o nome do pet" size="20">
+                </p>
+    
+                <p>
+                    <label for="opcao">porte do seu pet</label>
+                    <input type="radio" name="porte_pet" value="pet_pq" checked>
+                    <label for="">pequeno</label>
+                    <input type="radio" name="porte_pet" value="pet_md">
+                    <label for="">médio</label>
+                    <input type="radio" name="porte_pet" value="pet_gd">
+                    <label for="">grande</label>
+                </p>
+                <p>
+                    <label for="opcoes">Tipo de tosa:</label>
+                    <select name="opcoes">
+                        <option value="">selecione uma opção</option>
+                        <option value="nenhuma">Nenhuma</option>
+                        <option value="padrao">Tosa padrão</option>
+                        <option value="higienica">Tosa higinênica</option>
+                        <option value="tesoura">Tosa na tesoura</option>
+                        <option value="raca">Tosa da Raça</option>
+                        <option value="bebe">Tosa Bebê</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="observacoes">Observações</label><br>
+                    <textarea name="nome" placeholder="Digite mais informações caso necessário" cols="30"
+                        rows="5"></textarea>
+                </p>
+            </fieldset>
+            <p>
+                <fieldset><legend><figcaption>Horário - (Não atendemos nos domingos e segundas-feiras)</figcaption></legend>
+                <p>
+                    <label for="dias da semana">
+                        Indique os dias da semana de sua preferência
+                    </label><br>
+                    <input type="checkbox" name="terca" value="terca">
+                    <label for="terca">terça feira</label>
+                    <input type="checkbox" name="quarta" value="quarta">
+                    <label for="quarta">quarta feira</label>
+                    <input type="checkbox" name="quinta" value="quinta">
+                    <label for="quinta">quinta feira</label>
+                    <input type="checkbox" name="sexta" value="sexta">
+                    <label for="sexta">sexta feira</label>
+                    <input type="checkbox" name="sabado" value="sabado">
+                    <label for="sabado">Sábado</label>
+                </p>
+                <p>
+                    <label for="horario">primeira opção de horário</label>
+                    <input type="time">
+                </p>
+                <p>
+                    <label for="horario">segunda opção de horário</label>
+                    <input type="time">
+                </p>
+            </fieldset>
+            </p>
+    
+            <input type="submit" value="Enviar">
+        </form>
+   </main>
+   <footer></footer>
+</body>
+
+</html>
