@@ -1,0 +1,39 @@
+body{
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+}
+
+header{
+background-color: #e5c5b0;
+text-align: center;
+border-radius: 0 0 0 25px;
+width: 270px;
+padding: 5px 15px 20px ;
+margin:0 0 10px 30px ; 
+float: right;
+}
+header a{
+    border: solid thin;
+    border-radius: 25px;
+    background-color: white;
+    text-decoration: none;
+    color: brown;
+    padding: 5px;
+}
+h1{
+background-color: #bd4e15;
+color: #fff;
+padding: 5px;
+font-size: 2em;
+}
+
+section{
+text-align: justify;
+width: 330px;
+float: left;
+}
+/* criação da segunda coluna e seu espaçamento */
+section:nth-of-type(2){
+    margin-left: 40px;
+}

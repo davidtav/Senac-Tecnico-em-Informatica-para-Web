@@ -1,0 +1,61 @@
+body{
+    text-align: justify;
+    width: 740px;
+    margin: auto;
+}
+
+header{
+background-color: #e5c5b0;
+text-align: center;
+border-radius: 0 0 0 25px;
+width: 270px;
+padding: 5px 15px 20px ;
+margin:0 0 10px 30px ; 
+float: right;
+}
+header a{
+border: solid thin;
+border-radius: 25px;
+background-color: white;
+text-decoration: none;
+color: brown;
+padding: 5px;
+}
+section h1{
+background-color: #bd4e15;
+color: #fff;
+padding: 5px;
+font-size: 2em;
+text-align: left;
+}
+section h2{
+    text-align: left;
+}
+main{
+    /* não permite outros elementos flutuando aos lado */
+    clear: both;
+    overflow: auto;
+    background-color: #e3dacd;
+    
+}
+main p{
+   
+    margin: 10px;
+
+
+} 
+section{
+text-align: justify;
+width: 330px;
+float: left;
+margin: 10px;
+
+}
+/* criação da segunda coluna e seu espaçamento */
+section:nth-of-type(2){
+    margin-left: 40px;
+}
+img{
+    float: left;
+    margin-right:20px ;
+}
